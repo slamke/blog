@@ -1,4 +1,15 @@
 # JVM性能调优监控工具jps、jstack、jmap、jhat、jstat、hprof使用详解
+
+
+|命令|描述|
+|---|-----------|
+|jdb    |命令行调试工具 |
+|jps    |列出所有Java进程的PID |
+|jstack   |列出虚拟机进程的所有线程运行状态 |
+|jmap   |列出堆内存上的对象状态 |
+|jstat    |记录虚拟机运行的状态，监控性能 |
+|jconsole |虚拟机性能/状态检查可视化工具 |
+
 ## JPS(Java Virtual Machine Process Status Tool)  
  jps主要用来输出JVM中运行的进程状态信息。语法格式如下：
 
